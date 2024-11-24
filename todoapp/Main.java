@@ -22,7 +22,7 @@ public class Main {
 
     @Bean
     Database database() {
-        Database database = new Database("db_nuel", "root", "", "localhost", "3306");
+        Database database = new Database("db_hazael", "root", "", "localhost", "3306");
         database.setup();
         return database;
     }
